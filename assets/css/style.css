@@ -1,0 +1,72 @@
+body{
+	margin: 0;
+}
+.my-db{
+	width: 100%;
+}
+.my-db .db-side{
+	width: 20%;
+	float: left;
+	overflow: scroll;
+    height: 630px;
+    padding: 10px;
+}
+.my-db .db-content{
+	width: 80%;
+    float: left;
+    overflow: scroll;
+    height: 535px;
+    padding: 5px;
+}
+.query-box-wrap{
+    float: left;
+    width: 80%;
+}
+.my-db .db-content tbody td  span{
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 200px;
+    display: block;
+}
+.my-db .db-side ul li.active {
+    background: #f1f1f1;
+}
+.loading {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #ffffff9e;
+    cursor: wait;
+    display: none;
+}
+
+.loading .container {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.loading .container p {
+    font-size: 42px;
+}
+/*#editform .modal-dialog {
+    width: 900px;
+}*/
+.db-content tr:hover {
+    background: #d4d4d4 !important;
+}
+.my-db-wrap {
+    width: 90%;
+    height: 630px;
+    margin: auto;
+    position: relative;
+}
+.my-db-wrap .my-db-form {
+    width: 100%;
+    float: left;
+    box-shadow: 0px 4px 10px 0 #c1b6b6;
+    padding: 5px;
+}
